@@ -1,0 +1,341 @@
+* {
+    box-sizing: broder-box;
+}
+.row {
+display: flex;
+}
+.column {
+flex: 50%;
+padding: 10px;
+height: 300px;
+} 
+.logo {
+width: 600px;
+display: block;
+margin: auto;
+}
+  body {margin:50px 150px 50px 150px}  
+[type="radio"]:checked, [type="radio"]:not(:checked){
+    position: absolute;
+    visibility: hidden;
+  } 
+h1 {
+text-align: center;
+}
+  
+  /* Product Color */
+  /* ------------------------------------------------------------------------------------------------------------- */
+
+  .color-btn:checked + label, .color-btn:not(:checked) + label{
+  display: inline-block; /*maybe change this so its further to to side*/
+  width: 40px;
+  height: 40px;
+  margin: 10px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 7px 15px 0 #86939E;
+  margin-right: 10px;
+  z-index: 10;
+  background-position: center;
+  background-size: cover;
+  border: 3px solid transparent;
+  } 
+  .color-btn:checked + label{
+    border-color: #86939E;
+    transform: scale(1.1);
+  }
+  
+  label.color-1{
+    margin-left: 500px;
+    background-color: #ffffff; /*pure white*/
+  }
+  label.color-2{
+    background-color: #f5f5f5; /*off white*/
+  }
+  label.color-3{
+    background-color: #e8c7c8; /*blush*/
+  }
+  label.color-4{
+    background-color: #f7e7ce; /*champagne*/
+  }
+  label.color-5{
+    background-color: #fffff0; /*ivory*/
+  }
+  label.color-6{
+    background-color: #eeebe3; /*natural white*/
+  }
+  label.color-7{
+    background-color: #e3bc9a; /*nude*/
+  }
+  /* white, off white, natural white, ivory, champagne, nude, blush */
+  
+  .img-wrap{
+    position: absolute;
+     top: 350px;
+    left: 150px;
+    width: 500px;
+    height: 500px;
+    display: block;
+    z-index: 9;
+    transition: all 550ms linear;
+    transition-delay: 100ms;
+    background-position: center top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('Pictures/HeelWhite.png');
+    opacity: 0;
+  }
+  .for-color-1:checked ~ .img-wrap.shoe-1{
+    opacity: 1;
+  }
+  .img-wrap.shoe-2{
+    background-image: url('Pictures/HeelOffWhite.png');
+  }
+  .for-color-2:checked ~ .img-wrap.shoe-2{
+    opacity: 1;
+  }
+  .img-wrap.shoe-3{
+    background-image: url('Pictures/HeelBlush.png');
+  }
+  .for-color-3:checked ~ .img-wrap.shoe-3{
+    opacity: 1;
+  }
+  .img-wrap.shoe-4{
+    background-image: url('Pictures/HeelChampagne.png');
+  }
+  .for-color-4:checked ~ .img-wrap.shoe-4{
+    opacity: 1;
+  }
+  .img-wrap.shoe-5{
+    background-image: url('Pictures/HeelIvory.png');
+  }
+  .for-color-5:checked ~ .img-wrap.shoe-5{
+    opacity: 1;
+  }
+  .img-wrap.shoe-6{
+    background-image: url('Pictures/HeelNaturalWhite.png');
+  }
+  .for-color-6:checked ~ .img-wrap.shoe-6{
+    opacity: 1;
+  }
+  .img-wrap.shoe-7{
+    background-image: url('Pictures/HeelNude.png');
+  }
+  .for-color-7:checked ~ .img-wrap.shoe-7{
+    opacity: 1;
+  }
+  
+  /* Hover over */
+  /*--------------------------------------------------------------------------------------------- */
+  
+  .addMore{
+    border: none;
+    width: 32px;
+    height: 32px;
+    transition: all ease-in 0.1s;
+    cursor: pointer;
+  }
+  .addMore:hover{
+      border: 1px solid #888;
+      background-color: #ddd;
+  }
+  
+  /* Pretty Buttons */
+  /* -------------------------------------------------------------------------------------------- */
+
+  /* Cable Configuration  */
+  /* .cable-choose {
+    margin-bottom: 20px;
+  } */
+  .cable-choose button {
+    border: 2px solid #E1E8EE;
+    border-radius: 6px;
+    padding: 13px 20px;
+    font-size: 14px;
+    color: #5E6977;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+  }
+  .cable-choose button:hover, .cable-choose button:active, .cable-choose button:focus {
+    border: 2px solid #86939E;
+    outline: none;
+  }
+  /* .cable-config {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+  } */
+   
+  .perfHeight a {
+    color: #358ED7;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    margin: 10px 0;
+    display: inline-block;
+  }
+  .perfHeight a:before {
+    content: "?";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid rgba(53, 142, 215, 0.5);
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+    opacity: 0.5;
+    margin-right: 5px;
+  }
+
+  .material {
+    margin-bottom: 20px;
+  }
+  .material button {
+    border: 2px solid #E1E8EE;
+    border-radius: 6px;
+    padding: 5px 5px;
+    font-size: 14px;
+    color: #5E6977;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+  }
+  .material button:hover, .material button:active, .material button:focus {
+    border: 2px solid #86939E;
+    outline: none;
+  }
+  /* .material {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+  }  */
+
+  .measurement a {
+    color: #358ED7;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    margin: 10px 0;
+    display: inline-block;
+  }
+  .measurement a:before {
+    content: "?";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid rgba(53, 142, 215, 0.5);
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+    opacity: 0.5;
+    margin-right: 5px;
+  }
+  
+  /* Heel Height Slider */
+  /* ------------------------------------------------------------------------------------------------ */
+
+  input.range {
+    bottom: -10px;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  input.range:focus {
+    outline: 0;
+  }
+  input.range::-moz-focus-outer {
+    border: 0;
+  }
+
+  input.range::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px black, 0px 0px 1px black;
+    border: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: grey;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -7.5px;
+  }
+  
+  input.range::-moz-range-thumb {
+    box-shadow: 1px 1px 1px black, 0px 0px 1px black;
+    border: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: grey;
+    cursor: pointer;
+  }
+  input.range::-ms-thumb {
+    box-shadow: 1px 1px 1px black, 0px 0px 1px black;
+    border: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: grey;
+    cursor: pointer;
+    height: 5px;
+  }
+
+  input.range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+    background: #86939E;
+    border-radius: 20px;
+    border: 0;
+  }
+  
+  input.range::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+    background: grey;
+    border-radius: 20px;
+    border: 0;
+  }
+  
+  input.range::-ms-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+
+  input.range::-ms-fill-lower, input.range::-ms-fill-upper {
+    background: grey;
+    border: 0;
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  }
+  .range__tick {
+    fill: grey;
+  }
+  .range__tick:first-child {
+    -webkit-transform: translateX(2px);
+    -moz-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    -o-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  .range__tick:last-child {
+    -webkit-transform: translateX(-3px);
+    -moz-transform: translateX(-3px);
+    -ms-transform: translateX(-3px);
+    -o-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  .range__field {
+    border: 0;
+  }
