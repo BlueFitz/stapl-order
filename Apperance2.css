@@ -96,7 +96,7 @@ text-align: center;
     opacity: 1;
   }
   .img-wrap.shoe-3{
-    background-image: url('https://github.com/BlueFitz/stapl-order/blob/main/HeelBlush.png');
+    background-image: url('https://raw.githubusercontent.com/BlueFitz/stapl-order/main/HeelBlush.png');
   }
   .for-color-3:checked ~ .img-wrap.shoe-3{
     opacity: 1;
