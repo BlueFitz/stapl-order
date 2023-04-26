@@ -83,44 +83,44 @@ text-align: center;
     background-position: center top;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url('/HeelWhite.png');
+    background-image: url('https://photos.google.com/photo/AF1QipNxhuMqGkONgMBljVC9k1AIEiAIO-ZDt7Sj7e5f');
     opacity: 0;
   }
   .for-color-1:checked ~ .img-wrap.shoe-1{
     opacity: 1;
   }
   .img-wrap.shoe-2{
-    background-image: url('HeelOffWhite.png');
+    background-image: url('https://photos.google.com/photo/AF1QipMHbRojRMaLmbFzA75OTcdW-hGbRl08utjXkLBr');
   }
   .for-color-2:checked ~ .img-wrap.shoe-2{
     opacity: 1;
   }
   .img-wrap.shoe-3{
-    background-image: url('https://raw.githubusercontent.com/BlueFitz/stapl-order/main/HeelBlush.png');
+    background-image: url('https://photos.google.com/photo/AF1QipPPrmEW5loJ7cg94Cisc9Z6Bcsk0nZufKEcgSms');
   }
   .for-color-3:checked ~ .img-wrap.shoe-3{
     opacity: 1;
   }
   .img-wrap.shoe-4{
-    background-image: url('HeelChampagne.png');
+    background-image: url('https://photos.google.com/photo/AF1QipNwg1Ot8gT8nkg8g4e_rkoLZMherMJuXanRGs1p');
   }
   .for-color-4:checked ~ .img-wrap.shoe-4{
     opacity: 1;
   }
   .img-wrap.shoe-5{
-    background-image: url('HeelIvory.png');
+    background-image: url('https://photos.google.com/photo/AF1QipO6rJph6gdBudbAkAMuLdTWVH78vCgzHxB1zMHh');
   }
   .for-color-5:checked ~ .img-wrap.shoe-5{
     opacity: 1;
   }
   .img-wrap.shoe-6{
-    background-image: url('HeelNaturalWhite.png');
+    background-image: url('https://photos.google.com/photo/AF1QipOsEXJNHOsvEqKaZr4XcanmwkO2bRh2PRZZ1Slo');
   }
   .for-color-6:checked ~ .img-wrap.shoe-6{
     opacity: 1;
   }
   .img-wrap.shoe-7{
-    background-image: url('HeelNude.png');
+    background-image: url('https://photos.google.com/photo/AF1QipPwC1fVSWwXsKyW_ri49afebLue55zeD_regTEA');
   }
   .for-color-7:checked ~ .img-wrap.shoe-7{
     opacity: 1;
