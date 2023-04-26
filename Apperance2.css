@@ -84,7 +84,7 @@ text-align: center;
     background-size: 100%;
     background-repeat: no-repeat;
     background-image: url('https://photos.google.com/photo/AF1QipNxhuMqGkONgMBljVC9k1AIEiAIO-ZDt7Sj7e5f');
-    opacity: 0;
+    opacity: 1;
   }
   .for-color-1:checked ~ .img-wrap.shoe-1{
     opacity: 1;
